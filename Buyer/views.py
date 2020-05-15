@@ -9,7 +9,7 @@ from Qshop.views import setPassword,loginValid_buyer
 def index(request):
     types = Type.objects.filter(parent=0)
     result = []
-    print("123456")
+    print("python java")
     for t in types:
         d = {}
         d["type"] = t#每一种类型
